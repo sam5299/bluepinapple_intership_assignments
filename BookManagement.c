@@ -102,6 +102,7 @@ node *insert(node *head){
     int bname[100];
     int bookid = count(head)+1;
     node *temp,*q;
+    print("%d",head);
     if(head==NULL){
         head = (node*)malloc(sizeof(node));
         head->bookid = bookid;
