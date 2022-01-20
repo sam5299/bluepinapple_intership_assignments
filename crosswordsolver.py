@@ -38,6 +38,8 @@ if __name__ == '__main__':
             if len(x)==length:
                 temp = checkWords(x,position)
                 if temp==0:final_words.append(x)
+            elif len(x)>length:
+                break
             else:
                 continue
     else:
